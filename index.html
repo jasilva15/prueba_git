@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Página</title>
+	<link rel="shorcut icon" href="img/favicon.png">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/responsiveslides.css">
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/fonts.css">
+
+	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+	<script src="js/responsiveslides.js"></script>
+
+	<script>
+		$(document).ready(function(){
+			$("#slider-home").responsiveSlides({
+				speed: 800,
+				nav: true,
+				namespace: 'slid-btns',
+				titleAnimation: 'bounceIn',
+			});
+		})
+	</script>
+</head>
+
+<body>
+	<header class="cabecera">
+		<div class="container clearfix">
+			<div class="logo">
+				<img src="img/logo.png">
+			</div>
+			<nav class="menu">
+				<ul class="clearfix">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Portafolio</a></li>
+					<li><a href="#">Contacto</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	
+	<!-- SLIDER -->
+	<div class="slider">
+		<ul class="rslides" id="slider-home">
+			<li>
+				<img src="img/11.jpg" alt="">
+				<div class="caption">
+					<h3 class="wow">PODER LEGISLATIVO QUINTANA ROO</h3>
+					<p class="wow">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi molestiae maiores delectus quisquam libero ad laborum expedita eveniet dolor corrupti aperiam minima fugiat odit sunt rem vero, voluptas consequuntur nihil!</p>
+				</div>
+			</li>
+			<li>
+				<img src="img/12.jpg" alt="">
+				<div class="caption">
+					<h3 class="wow">MURAL DEL CONGRESO</h3>
+					<p class="wow">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi molestiae maiores delectus quisquam libero ad laborum expedita eveniet dolor corrupti aperiam minima fugiat odit sunt rem vero, voluptas consequuntur nihil!</p>
+				</div>
+			</li>
+			<li>
+				<img src="img/13.jpg" alt="">
+				<div class="caption">
+					<h3 class="wow">OTRA FOTO</h3>
+					<p class="wow">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi molestiae maiores delectus quisquam libero ad laborum expedita eveniet dolor corrupti aperiam minima fugiat odit sunt rem vero, voluptas consequuntur nihil!</p>
+				</div>
+			</li>
+			<li>
+				<img src="img/14.jpg" alt="">
+				<div class="caption">
+					<h3 class="wow">Ultima Foto</h3>
+					<p class="wow">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi molestiae</p>
+				</div>
+			</li>
+
+		</ul>
+	</div>
+
+	<section class="servicios">
+		<hgroup class="titulos-wrap">
+			<h2 class="titulo wow bounceIn" data-wow-delay="0.3s">Sitios de Interes</h2>
+			<h4 class="subtitulo wow bounceIn" data-wow-delay="0.6s">Todos los Servicios del Poder Legislativos del Estado de Quintana Roo</h4>
+		</hgroup>
+		<div class="container">
+			<article class="item">
+				<div class="icon">
+					<span class="icon-library wow bounceIn" data-wow-delay="0.1s"></span>
+				</div>
+				<header>
+					<h3><a href="#">Instituto de Investigaciones Legislativas</a></h3>
+					<p>Aqui va una descripción del instituto de investigaciones legislativas.</p>
+				</header>
+			</article>
+			<article class="item">
+				<div class="icon">
+					<span class="icon-microphone3 wow bounceIn" data-wow-delay="0.4s"></span>
+				</div>
+				<header>
+					<h3><a href="#">Comunicación Social</a></h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, nemo unde aliquid? Error, veritati.</p>
+				</header>
+			</article>
+			<article class="item">
+				<div class="icon">
+					<span class="icon-face-unlock wow bounceIn" data-wow-delay="0.7s"></span>
+				</div>
+				<header>
+					<h3><a href="#">Parlamento Infantil</a></h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, quisquam, aperia.</p>
+				</header>
+			</article>
+			<article class="item">
+				<div class="icon">
+					<span class="icon-addressbook wow bounceIn" data-wow-delay="0.1s"></span>
+				</div>
+				<header>
+					<h3><a href="#">Directorio</a></h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde atque quidem consequatur. Eius vitae.</p>
+				</header>
+			</article>
+			<article class="item">
+				<div class="icon">
+					<span class="icon-brush2 wow bounceIn" data-wow-delay="0.4s"></span>
+				</div>
+				<header>
+					<h3><a href="#">Mural</a></h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, nemo unde aliquid? Error, veritati.</p>
+				</header>
+			</article>
+			<article class="item">
+				<div class="icon">
+					<span class="icon-comments wow bounceIn" data-wow-delay="0.7s"></span>
+				</div>
+				<header>
+					<h3><a href="#">Congreso Juvenil</a></h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, quisquam, aperia.</p>
+				</header>
+			</article>
+		</div>
+	</section>
+
+	<section class="posts-wrap">    
+		<hgroup class="titulos-wrap">
+			<h2 class="titulo wow fadeIn" data-wow-delay="0.3s">Trabajos Recientes</h2>
+			<h4 class="subtitulo wow bounceIn" data-wow-delay="0.6s">Lorem ipsum dolor sit amet</h4>
+		</hgroup>
+		<div class="container">
+			<figure class="post wow fadeInLeft" data-wow-delay="0.3s">
+				<img src="img/5.jpg" alt="Blog 1">
+				<figcaption>
+					<h3><a href="post/">Ley de Fomento al Primer Empleo para el Estado de Quintana Roo.</a></h3>
+					<p class="date"><i class="fa fa-calendar-o"></i>05 Marzo, 2014</p>
+				</figcaption>
+			</figure>
+			<figure class="post wow fadeInLeft" data-wow-delay="0.6s">
+				<img src="img/1.jpg" alt="Blog 2">
+				<figcaption>
+					<h3>Lorem ipsum dolor sit amet!</h3>
+					<p class="date"><i class="fa fa-calendar-o"></i>05 Marzo, 2014</p>
+				</figcaption>
+			</figure>
+			<figure class="post wow fadeInLeft" data-wow-delay="0.9s">
+				<img src="img/7.jpg" alt="Blog 3">
+				<figcaption>
+					<h3><a href="post/">Ley de Fomento al Primer Empleo para el Estado de Quintana Roo.</a></h3>
+					<p class="date"><i class="fa fa-calendar-o"></i>05 Marzo, 2014</p>
+				</figcaption>
+			</figure>
+			<figure class="post wow fadeInLeft" data-wow-delay="1.2s">
+				<img src="img/4.jpg" alt="Blog 4">
+				<figcaption>
+					<h3><a href="post/">Lorem ipsum dolor sit amet.</a></h3>
+					<p class="date"><i class="fa fa-calendar-o"></i>05 Marzo, 2014</p>
+				</figcaption>
+			</figure>
+		</div>
+	</section>
+
+</body>
+
+	<script type="text/javascript" src="js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
+</html>
