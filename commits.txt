@@ -1,3 +1,9 @@
+commit 0b856aad7accba0360b0fa295754fe611a7f7d08
+Author: José Alberto Silva Ortiz <jasilva15@gmail.com>
+Date:   Wed Mar 23 12:06:37 2016 -0600
+
+    Creacion del archivo commits.txt
+
 commit b00adc0c62d4f5ff6aa58df1fe4cff0f24845530
 Author: José Alberto Silva Ortiz <jasilva15@gmail.com>
 Date:   Tue Mar 22 17:17:20 2016 -0600
