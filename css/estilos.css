@@ -115,7 +115,7 @@ a:visited{
 	padding:.2em 0;
 	font-size:2em;
 	text-transform:uppercase;
-	color:#A04D47;
+	color:#2FB677;
 }
 .titulos-wrap .subtitulo{
 	margin:0;
@@ -144,7 +144,7 @@ a:visited{
 	width:100px;
 	height:100px;
 	border-radius:50%;
-	border:1px solid #A04D47;	
+	border:1px solid #2FB677;	
 }
 .servicios .item .icon span{
 	line-height:100px;
@@ -167,5 +167,5 @@ a:visited{
 }
 .servicios .item:hover .icon span,
 .servicios .item:hover header h3 a{
-	color:#A04D47;
+	color:#2FB677;
 }
