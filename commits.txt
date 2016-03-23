@@ -1,3 +1,9 @@
+commit 058d7d4051a5d2f1d598ecabadb0a3fa10ea848a
+Author: Jose Alberto Silva Ortiz <jasilva15@gmail.com>
+Date:   Wed Mar 23 12:16:27 2016 -0600
+
+    Se eliminan archivos .zip de WOW-master, Responsives Slides u icomoon
+
 commit 0b856aad7accba0360b0fa295754fe611a7f7d08
 Author: José Alberto Silva Ortiz <jasilva15@gmail.com>
 Date:   Wed Mar 23 12:06:37 2016 -0600
